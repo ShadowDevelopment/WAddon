@@ -1,0 +1,55 @@
+ConfirmName: '&cConfirmation Menu'
+ChooseName: '&3Race Selecton'
+
+RaceChoose:
+- Number: 4
+  RaceName: HUMAN
+  Icon: WOOD
+  DisplayName: '&9&lHuman'
+  Lore:
+  - '&b&oHuge versatility.'
+  - ''
+  - '&f&lAttributes deliver:'
+  - ''
+  - '&f&oWisdom: 10'
+  - '&f&oIntelligence: 10'
+  - '&f&oDexterity: 10'
+  - '&f&oDurability: 10'
+  - '&f&oStrength: 10'
+- Number: 12
+  RaceName: ELV
+  Icon: LEAVES
+  DisplayName: '&2&lElv'
+  Lore:
+  - '&b&oMagically infused.'
+  - ''
+  - '&f&lAttributes deliver:'
+  - ''
+  - '&f&oWisdom: 15'
+  - '&f&oIntelligence: 15'
+  - '&f&oDexterity: 10'
+  - '&f&oDurability: 5'
+  - '&f&oStrength: 5'
+- Number: 14
+  RaceName: DWARF
+  Icon: STONE
+  DisplayName: '&6&lDwarf'
+  Lore:
+  - '&bUnparalleled strength.'
+  - ''
+  - '&f&lAttributes deliver:'
+  - ''
+  - '&f&oWisdom: 5'
+  - '&f&oIntelligence: 5'
+  - '&f&oDexterity: 10'
+  - '&f&oDurability: 15'
+  - '&f&oStrength: 15'
+RaceConfirmation:
+- Number: 13
+  Icon: EMERALD_BLOCK
+  BackItem: false
+  DisplayName: '&a&lConfirm'
+  Lore: []
+- Number: 27
+  BackItem: true
+    

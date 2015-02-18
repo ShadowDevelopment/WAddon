@@ -1,0 +1,69 @@
+name: WAddon
+main: me.wiedzmin137.waddon.WAddon
+version: 0.1
+depend: [Heroes, ProtocolLib, Vault, ScrollingMenuSign]
+commands:
+    chunkbreedlimit:
+        aliases: [cbl]
+        description: manage chunkbreedlimit config
+        usage: "/<command> reload"
+    itags:
+        description: Information about the plugin.
+        usage: /<command>
+    itags reload:
+        description: Reloads the config.
+        usage: /<command> reload
+    itags update:
+        description: Updates to the latest version.
+        usage: /<command> update
+    ding:
+        description: Send a note to a player.
+        usage: /<command> [player] [pitch]
+    townyinfo:
+        description: Send command page with towns.
+        usage: /<command>
+    mayorinfo:
+        description: Send command page with mayor.
+        usage: /<command> mayor
+    showsms:
+        description: Shows SMS Menu
+        usage: /<command> menu player
+    test:
+        description: Test
+        usage: /<command> 
+    itemsgive:
+        description: Gives items
+        usage: /<command> class player
+    choose:
+        description: Choose the class
+        usage: /<command>
+    hero:
+        description: Shows your info panel
+        usage: /<command>
+    rf:
+        description: RealFight
+        usage: /<command>
+    raceChoose:
+        description: Choose the race
+        usage: /<command>
+    getStat:
+        description: Get Race and Attributes
+        usage: /<command>
+    setRace:
+        description: Choose the race
+        usage: /<command>
+permissions:
+    chunkbreedlimit.admin:
+        description: allowed to reload CBL Config
+    waddon.use:
+        description: allowed to reload CBL Config
+    waddon.see:
+        description: allowed to reload CBL Config
+    itags.signtag:
+        description: allowed to reload CBL Config
+    itags.*:
+        description: allowed to reload CBL Config
+    itags.links:
+        description: allowed to reload CBL Config
+    itags.playertag:
+        description: allowed to reload CBL Config

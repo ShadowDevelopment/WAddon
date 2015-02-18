@@ -1,0 +1,262 @@
+#
+#	WAddon Configuration File
+#	=====================================
+#
+#	Need a new config file? Just delete this one and a new one will be created.
+#
+
+
+# Enable or disable the two main features of the plugin. Tags in chat or tags on signs
+enableChatTags: true
+enableSignTags: false
+enableHashTags: false
+
+# The symbol that the plugin will catch as being a tag
+playerTag: '@'
+
+# Choose the color of the tags in chat
+# You may use minecraft color codes! &a, &b, &c, &d, etc...
+playerTagColor: '&e'
+hashTagColor: '&b'
+linkColor: '&7'
+chatColor: '&f&l'
+
+# Use the in-game color of the person's name instead of the above player tag color. (Also hide the tag symbol)
+useDisplayNameColors: false
+
+# Choose the sound which will be heard by the tagged player. You can see a list of sounds at the bottom of this config.
+chatSound: NOTE_PLING
+signSound: NOTE_BASS_GUITAR
+
+# What type of notification should the tagged player receive for being tagged in a sign?
+# 'full' will show the entire message that was put on the sign.
+# 'mini' will just let the tagged player know who tagged them.
+# 'none' will not send a message to the tagged player, but will still play a sound.
+signNotifyType: mini
+
+# The plugin will do it's best to prevent bad words from going into /trending by not accepting bad words as hashtags.
+censorHashTags: true
+
+# BONUS!
+# Very useful! Replace ./command with /command for a cleaner way of telling people how to use commands.
+# Also, a nice link underliner
+enableDotSlashCleaner: true
+enableLinkUnderliner: true
+
+# Keep up to date! This plugin can notify you about updates and let you install them from in-game!
+update-notification: true
+
+# Don't touch this unless you wanna lose your config. :)
+config-version: 3
+
+
+# spawn-cap: maximum number of entities per chunk before breeding is disabled
+# entity-list: mobs that are counted in a chunk's total count
+# breeding-fail-msg: message sent to the player when breeding is disabled due to chunk capacity
+
+spawn-cap: 15
+breeding-fail-msg: "Zwierzeta sie niepokoja... Jest zbyt tloczono!"
+
+entity-list:
+  - pig
+  - cow
+  - chicken
+  - sheep
+  - horse
+  - wolf
+
+#use-individual-cap: specify whether you wish to use the individual entity list and individual entity limit checking
+use-individual-cap: false
+#entity-list-individual: (entitytype, spawnlimit)
+entity-list-individual:
+  - pig, 10
+  - cow, 10
+  - chicken, 10
+  - sheep, 10
+
+PlayerCountMessage:
+- '§6[§4------------------------§6]'
+- '          §4§lDovahkiin'
+- '&#9725; §c§oZbuduj imperium!'
+- '&#9725; §c§oNabywaj umiej&#281;tno&#347;ci'
+- '&#9725; §c§oZota&#324; Dovahkiin!'
+- '§6[§4------------------------§6]'
+- '        §4§lInformacje'
+- '&#9725; §c§oSerwer Non-Premium §nRPG§c§o,'
+- '&#9725; §c§oKlasy, Magia, Atrybuty'
+- '&#9725; §c§oWytrzyma&#322;o&#347;&#263;, Nowa walka'
+- '&#9725; §c§oNowe przedmioty'
+- '&#9725; §c§oDwa &#347;wiaty - PvP, PvE'
+- '&#9725; §c§oToDo - Drzewka umiej&#281;tno&#347;ci'
+- '&#9725; §c§oToDo - Zwierz&#281;ta'
+- '&#9725; §c§oToDo - Rasy'
+- '§6[§4------------------------§6]'
+- '§c§oSerwer jest w wersji §nBETA§c§o,'
+- '&#9725; §c§oZg&#322;aszaj wszelkie b&#322;&#281;dy'
+- '  §c§ojakie zaobserwujesz!'
+- '§6[§4------------------------§6]'
+
+MoTD: '§6[§4RPG§6] §f§lDovahkiin §b- prace techniczne w toku...%newline%&#32;&#32;&#32;&#32;&#32;§f§l&#9635; §f§oPrzytrzymaj mysz na liczbie graczy!'
+
+#	Sounds Reference
+#	====================
+#
+#	AMBIENCE_CAVE
+#	AMBIENCE_RAIN
+#	AMBIENCE_THUNDER
+#	ANVIL_BREAK
+#	ANVIL_LAND
+#	ANVIL_USE
+#	ARROW_HIT
+#	BAT_DEATH
+#	BAT_HURT
+#	BAT_IDLE
+#	BAT_LOOP
+#	BAT_TAKEOFF
+#	BLAZE_BREATH
+#	BLAZE_DEATH
+#	BLAZE_HIT
+#	BREATH
+#	BURP
+#	CAT_HISS
+#	CAT_HIT
+#	CAT_MEOW
+#	CAT_PURR
+#	CAT_PURREOW
+#	CHEST_CLOSE
+#	CHEST_OPEN
+#	CHICKEN_EGG_POP
+#	CHICKEN_HURT
+#	CHICKEN_IDLE
+#	CHICKEN_WALK
+#	CLICK
+#	COW_HURT
+#	COW_IDLE
+#	COW_WALK
+#	CREEPER_DEATH
+#	CREEPER_HISS
+#	DIG_GRASS
+#	DIG_GRAVEL
+#	DIG_SAND
+#	DIG_SNOW
+#	DIG_STONE
+#	DIG_WOOD
+#	DIG_WOOL
+#	DOOR_CLOSE
+#	DOOR_OPEN
+#	DRINK
+#	EAT
+#	ENDERDRAGON_DEATH
+#	ENDERDRAGON_GROWL
+#	ENDERDRAGON_HIT
+#	ENDERDRAGON_WINGS
+#	ENDERMAN_DEATH
+#	ENDERMAN_HIT
+#	ENDERMAN_IDLE
+#	ENDERMAN_SCREAM
+#	ENDERMAN_STARE
+#	ENDERMAN_TELEPORT
+#	EXPLODE
+#	FALL_BIG
+#	FALL_SMALL
+#	FIRE
+#	FIRE_IGNITE
+#	FIZZ
+#	FUSE
+#	GHAST_CHARGE
+#	GHAST_DEATH
+#	GHAST_FIREBALL
+#	GHAST_MOAN
+#	GHAST_SCREAM
+#	GHAST_SCREAM2
+#	GLASS
+#	HURT
+#	HURT_FLESH
+#	IRONGOLEM_DEATH
+#	IRONGOLEM_HIT
+#	IRONGOLEM_THROW
+#	IRONGOLEM_WALK
+#	ITEM_BREAK
+#	ITEM_PICKUP
+#	LAVA
+#	LAVA_POP
+#	LEVEL_UP
+#	MAGMACUBE_JUMP
+#	MAGMACUBE_WALK
+#	MAGMACUBE_WALK2
+#	MINECART_BASE
+#	MINECART_INSIDE
+#	NOTE_BASS
+#	NOTE_BASS_DRUM
+#	NOTE_BASS_GUITAR
+#	NOTE_PIANO
+#	NOTE_PLING
+#	NOTE_SNARE_DRUM
+#	NOTE_STICKS
+#	ORB_PICKUP
+#	PIG_DEATH
+#	PIG_IDLE
+#	PIG_WALK
+#	PISTON_EXTEND
+#	PISTON_RETRACT
+#	PORTAL
+#	PORTAL_TRAVEL
+#	PORTAL_TRIGGER
+#	SHEEP_IDLE
+#	SHEEP_SHEAR
+#	SHEEP_WALK
+#	SHOOT_ARROW
+#	SILVERFISH_HIT
+#	SILVERFISH_IDLE
+#	SILVERFISH_KILL
+#	SILVERFISH_WALK
+#	SKELETON_DEATH
+#	SKELETON_HURT
+#	SKELETON_IDLE
+#	SKELETON_WALK
+#	SLIME_ATTACK
+#	SLIME_WALK
+#	SLIME_WALK2
+#	SPIDER_DEATH
+#	SPIDER_IDLE
+#	SPIDER_WALK
+#	SPLASH
+#	SPLASH2
+#	STEP_GRASS
+#	STEP_GRAVEL
+#	STEP_LADDER
+#	STEP_SAND
+#	STEP_SNOW
+#	STEP_STONE
+#	STEP_WOOD
+#	STEP_WOOL
+#	SWIM
+#	WATER
+#	WITHER_DEATH
+#	WITHER_HURT
+#	WITHER_IDLE
+#	WITHER_SHOOT
+#	WITHER_SPAWN
+#	WOLF_BARK
+#	WOLF_DEATH
+#	WOLF_GROWL
+#	WOLF_HOWL
+#	WOLF_HURT
+#	WOLF_PANT
+#	WOLF_SHAKE
+#	WOLF_WALK
+#	WOLF_WHINE
+#	WOOD_CLICK
+#	ZOMBIE_DEATH
+#	ZOMBIE_HURT
+#	ZOMBIE_IDLE
+#	ZOMBIE_INFECT
+#	ZOMBIE_METAL
+#	ZOMBIE_PIG_ANGRY
+#	ZOMBIE_PIG_DEATH
+#	ZOMBIE_PIG_HURT
+#	ZOMBIE_PIG_IDLE
+#	ZOMBIE_REMEDY
+#	ZOMBIE_UNFECT
+#	ZOMBIE_WOOD
+#	ZOMBIE_WOODBREAK
